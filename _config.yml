@@ -1,6 +1,6 @@
-title: Zheyuan Wu
-description: Zheyuan's webpage
-sourcecode: "https://github.com/ZheyuanWU/ZheyuanWU.github.io.git"
+title: Haoyi Zeng
+description: Haoyi's webpage
+sourcecode: "https://github.com/HaoyiZeng/HaoyiZeng.github.io"
 
 permalink: blog/:year/:month/:day/:title
 exclude: ["Makefile", "README.md"]
