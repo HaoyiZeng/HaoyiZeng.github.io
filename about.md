@@ -3,36 +3,54 @@ layout: page
 title: Haoyi Zeng
 permalink: /
 pubs:
-    - title:   "Paper title in 3-7 words that sound like Clingon"
-      author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
-      journal: "Transactions on Black Magic"
-      note:    "(presented at Oz)"
-      year:    "2016"
-      url:     "http://publish-more-stuff.org"
-      doi:     "http://dx.doi.org"
-    #   image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-1020518087.jpg&f=1"
-      media:
-        - name: "IMDB"
-          url:  "http://www.imdb.com/title/tt0133093/"
-workshops:
-    - title:   "Paper title in 3-7 words that sound like Clingon"
-      author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
-      journal: "Transactions on Black Magic"
-      note:    "(presented at Oz)"
-      year:    "2016"
-      url:     "http://publish-more-stuff.org"
-      doi:     "http://dx.doi.org"
-    #   image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-1020518087.jpg&f=1"
-      media:
-        - name: "IMDB"
-          url:  "http://www.imdb.com/title/tt0133093/"
----
+    - title:   "The Blurred Drinker Paradox and Blurred Choice Axioms for the Downward Löwenheim-Skolem Theorem"
+      author:  "Dominik Kirst, Haoyi Zeng"
+      conference: "Draft"
 
+    - title:   "Post’s Problem in Constructive Mathematics"
+      author:  "Haoyi Zeng, Yannick Forster, Dominik Kirst"
+      conference: "Draft"
+
+    - title:   "Destabilizing Iris"
+      author:  "Simon Spies, Niklas Mück, Haoyi Zeng, Michael Sammler, Andrea Lattuada, Peter Müller, Derek Dreyer"
+      conference: "Submitted to PLDI 2025"
+      # url:     "http://publish-more-stuff.org"
+
+workshops:
+    - title:   "Kawa: An Abstract Language for Scalable and Variable Detection of Spectre Vulnerabilities"
+      author:  "Zheyuan Wu, Haoyi Zeng, Aaron Bies"
+      conference: "SRC SPLASH 2024 (3rd place)"
+      url:     "https://dl.acm.org/doi/10.1145/3689491.3689971"
+
+    - title:   "Post’s Problem in Constructive Mathematics"
+      author:  "Haoyi Zeng, Yannick Forster, Dominik Kirst, Takako Nemoto"
+      conference: "CCC 2024"
+      url:     "https://www.ps.uni-saarland.de/~zeng/bachelor/CCC2024_Post.pdf"
+
+    - title:   "Constructive Reverse Mathematics of the Downward Löwenheim-Skolem Theorem"
+      author:  "Dominik Kirst, Haoyi Zeng"
+      conference: "Logic Colloquium 2024"
+      url:     "https://www.ps.uni-saarland.de/~zeng/bachelor/LC_2024_LS.pdf"
+
+    - title:   "Post’s Problem and the Priority Method in CIC"
+      author:  "Haoyi Zeng, Yannick Forster, Dominik Kirst"
+      conference: "TYPES 2024"
+      url:     "https://www.ps.uni-saarland.de/~zeng/bachelor/TYPES_2024_Post.pdf"
+
+    - title:   "The Blurred Drinker Paradox and Blurred Choice Axioms for the Downward Löwenheim-Skolem Theorem"
+      author:  "Dominik Kirst, Haoyi Zeng"
+      conference: "TYPES 2024"
+      url:     "https://www.ps.uni-saarland.de/~zeng/bachelor/TYPES_2024_LS.pdf"
+
+ongoing:
+    - title: "Formalizing Hardware-Software Contracts in Lean"
+      author: "Haoyi Zeng, Thomas Bourgeat"
+---
 
 {% include image.html url="images/haoyi.jpg" width="200px" align="right" %}
 
 Hey, I'm a computer science bachelor student at [Saarland University]. 
-I'm broadly interested in these topics: programming languages, verification, and formal logic.
+I'm broadly interested in programming languages and verification.
 
 Email: (λx. λy. x00001@stud.uni-y.de) (haze) (saarland)
 
@@ -40,7 +58,34 @@ Email: (λx. λy. x00001@stud.uni-y.de) (haze) (saarland)
 [Baloo]: https://zheyuanwu.github.io/baloo.html
 
 ---
-### Pub
+### Ongoing Projects
+{% for pub in page.ongoing %}
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  {% if pub.image %}
+    <div style="margin-right: 20px;">
+      {% include image.html url=pub.image caption="" height="100px" align=thumbnail %}
+    </div>
+  {% endif %}
+  <div>
+    <strong><a href="{% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %}">{{ pub.title }}</a></strong><br />
+    {{ pub.author }}<br />
+    <i>{{ pub.conference }}</i><br />
+    {% if pub.note %} <i>({{ pub.note }})</i> {% endif %} <i>{{ pub.year }}</i>
+    {% if pub.doi %} [[doi]({{ pub.doi }})] {% endif %}
+    {% if pub.media %}
+      <br />Talk: 
+      {% for article in pub.media %}
+        <a href="{{ article.url }}" target="_blank">{{ article.name }}</a>
+        <!-- <a href="{{ article.url_c}}" target = "_black">{{ article.conference}} </a> -->
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
+{% endfor %}
+
+---
+<!-- ### Publications -->
+### Research Papers
 {% for pub in page.pubs %}
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
   {% if pub.image %}
@@ -51,7 +96,7 @@ Email: (λx. λy. x00001@stud.uni-y.de) (haze) (saarland)
   <div>
     <strong><a href="{% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %}">{{ pub.title }}</a></strong><br />
     {{ pub.author }}<br />
-    <i>{{ pub.journal }}</i><br />
+    <i>{{ pub.conference }}</i><br />
     {% if pub.note %} <i>({{ pub.note }})</i> {% endif %} <i>{{ pub.year }}</i>
     {% if pub.doi %} [[doi]({{ pub.doi }})] {% endif %}
     {% if pub.media %}
@@ -105,9 +150,9 @@ Email: (λx. λy. x00001@stud.uni-y.de) (haze) (saarland)
   }
 </script> -->
 
----
-### workshop
-{% for pub in page.pubs %}
+----
+### Extended Workshop Abstracts
+{% for pub in page.workshops %}
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
   {% if pub.image %}
     <div style="margin-right: 20px;">
@@ -117,13 +162,14 @@ Email: (λx. λy. x00001@stud.uni-y.de) (haze) (saarland)
   <div>
     <strong><a href="{% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %}">{{ pub.title }}</a></strong><br />
     {{ pub.author }}<br />
-    <i>{{ pub.journal }}</i><br />
+    <i>{{ pub.conference }}</i><br />
     {% if pub.note %} <i>({{ pub.note }})</i> {% endif %} <i>{{ pub.year }}</i>
     {% if pub.doi %} [[doi]({{ pub.doi }})] {% endif %}
     {% if pub.media %}
-      <br />Media: 
+      <br />Talk: 
       {% for article in pub.media %}
         <a href="{{ article.url }}" target="_blank">{{ article.name }}</a>
+        <!-- <a href="{{ article.url_c}}" target = "_black">{{ article.conference}} </a> -->
       {% endfor %}
     {% endif %}
   </div>
@@ -134,8 +180,26 @@ Email: (λx. λy. x00001@stud.uni-y.de) (haze) (saarland)
 
 
 ---
+
+### Achievements
+
+- [Summer@EPFL](https://summer.epfl.ch/) Fellowship
+- German National Scholarship (Deutschlandstipendium)
+- Bachelor’s Honors Program 
+
+---
 ### Teaching
-...
+- Saarland University: [**Introduction to Computational Logic**](https://cms.sic.saarland/icl_23/) (2023)
+- Saarland University: [**Programming 2**](https://cms.sic.saarland/prog2_23/) (2023)
+- Saarland University: [**Programming 2 Pre-Course**](https://cms.sic.saarland/p2vorkurs23/) (2023)
+
+---
+
+### Events
+- SPLASH 2024
+- TYPES 2024
+- Iris Workshop 2023/2024
+- Proof and Computation 2023
 
 ---
 If you are tired, take a look at [Baloo].
