@@ -8,7 +8,7 @@ pubs:
       conference: "Draft"
 
     - title:   "Post’s Problem in Constructive Mathematics"
-      author:  "Haoyi Zeng, Yannick Forster, Dominik Kirst"
+      author:  "Haoyi Zeng, Yannick Forster, Dominik Kirst, Takako Nemoto"
       conference: "Draft"
 
     # - title:   "Destabilizing Iris"
@@ -19,7 +19,7 @@ pubs:
 workshops:
     - title:   "Kawa: An Abstract Language for Scalable and Variable Detection of Spectre Vulnerabilities"
       author:  "Zheyuan Wu, Haoyi Zeng, Aaron Bies"
-      conference: "SRC SPLASH 2024 (🥉 3rd place in the undergraduate category)"
+      conference: "SRC SPLASH 2024 🥉(3rd place in the undergraduate category)"
       url:     "https://dl.acm.org/doi/10.1145/3689491.3689971"
 
     - title:   "Post’s Problem in Constructive Mathematics"
