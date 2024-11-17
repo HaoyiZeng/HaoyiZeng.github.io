@@ -188,7 +188,8 @@ Email: (λx. λy. x00001@stud.uni-y.de) (haze) (saarland)
 - Bachelor’s Honors Program 
 
 ---
-### Teaching Assistant
+### Teaching
+I'm a TA for a number of courses at UdS.
 - Saarland University: [**Introduction to Computational Logic**](https://cms.sic.saarland/icl_23/) (2023)
 - Saarland University: [**Programming 2**](https://cms.sic.saarland/prog2_23/) (2023)
 - Saarland University: [**Programming 2 Pre-Course**](https://cms.sic.saarland/p2vorkurs23/) (2023)
