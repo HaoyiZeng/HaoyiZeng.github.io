@@ -50,7 +50,7 @@ ongoing:
 {% include image.html url="images/haoyi.jpg" width="200px" align="right" %}
 
 Hey, I'm a computer science bachelor student at [Saarland University]. 
-I'm broadly interested in programming languages and verification.
+I'm broadly interested in programming languages, verification, and type theory.
 
 **Email:** (λx. λy. x00001@stud.uni-y.de) (haze) (saarland)
 
