@@ -11,9 +11,9 @@ pubs:
       author:  "Haoyi Zeng, Yannick Forster, Dominik Kirst"
       conference: "Draft"
 
-    - title:   "Destabilizing Iris"
-      author:  "Simon Spies, Niklas Mück, Haoyi Zeng, Michael Sammler, Andrea Lattuada, Peter Müller, Derek Dreyer"
-      conference: "Submitted to PLDI 2025"
+    #- title:   "Destabilizing Iris"
+    #  author:  "Simon Spies, Niklas Mück, Haoyi Zeng, Michael Sammler, Andrea Lattuada, Peter Müller, Derek Dreyer"
+    #  conference: "Submitted to PLDI 2025"
       # url:     "http://publish-more-stuff.org"
 
 workshops:
