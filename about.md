@@ -11,10 +11,10 @@ pubs:
       author:  "Haoyi Zeng, Yannick Forster, Dominik Kirst"
       conference: "Draft"
 
-    #- title:   "Destabilizing Iris"
-    #  author:  "Simon Spies, Niklas Mück, Haoyi Zeng, Michael Sammler, Andrea Lattuada, Peter Müller, Derek Dreyer"
-    #  conference: "Submitted to PLDI 2025"
-      # url:     "http://publish-more-stuff.org"
+    # - title:   "Destabilizing Iris"
+    #   author:  "Simon Spies, Niklas Mück, Haoyi Zeng, Michael Sammler, Andrea Lattuada, Peter Müller, Derek Dreyer"
+    #   conference: "Submitted to PLDI 2025"
+    #   url:     "http://publish-more-stuff.org"
 
 workshops:
     - title:   "Kawa: An Abstract Language for Scalable and Variable Detection of Spectre Vulnerabilities"
@@ -47,12 +47,13 @@ ongoing:
       author: "Haoyi Zeng, Thomas Bourgeat"
 ---
 
-{% include image.html url="images/haoyi.jpg" width="200px" align="right" %}
+{% include image.html url="images/Duessedorf.jpg" width="200px" align="right" %}
 
 Hey, I'm a computer science bachelor student at [Saarland University]. 
 I'm broadly interested in programming languages, verification, and type theory.
 
-**Email:** (λx. λy. x00001@stud.uni-y.de) (haze) (saarland)
+<!-- **Email:** (λx. λy. x00001@stud.uni-y.de) (haze) (saarland) -->
+📬 (λx. λy. x00001@stud.uni-y.de) (haze) (saarland)
 
 <br>
 
