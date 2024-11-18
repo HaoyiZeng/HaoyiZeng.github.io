@@ -62,3 +62,16 @@ $desktop:          50em;
     "syntax-highlighting",
     "fancy-image"
 ;
+
+.title-style {
+    color: grey;
+    display: inline-block;
+    margin-bottom: 0;
+  }
+  
+.title-line {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 0.5px solid #ccc;
+  }
+  
