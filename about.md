@@ -57,8 +57,11 @@ I'm broadly interested in programming languages, verification, hardware design, 
 
 <br>
 
----
-### Ongoing Projects
+<!-- ---
+### Ongoing Projects -->
+### <span class="title-style">Ongoing Projects</span>
+<hr class="title-line">
+
 {% for pub in page.ongoing %}
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
   {% if pub.image %}
@@ -67,25 +70,30 @@ I'm broadly interested in programming languages, verification, hardware design, 
     </div>
   {% endif %}
   <div>
-    <strong><a href="{% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %}">{{ pub.title }}</a></strong><br />
-    {{ pub.author }}<br />
-    <i>{{ pub.conference }}</i><br />
-    {% if pub.note %} <i>({{ pub.note }})</i> {% endif %} <i>{{ pub.year }}</i>
-    {% if pub.doi %} [[doi]({{ pub.doi }})] {% endif %}
+    {% if pub.url %}
+      <strong style="font-size: 0.9em;"><a href="{% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %}">{{ pub.title }}</a></strong><br />
+    {% else %}
+      <strong style="font-size: 0.9em;">{{ pub.title }}</strong><br />
+    {% endif %}
+    <span style="font-size: 0.9em;">{{ pub.author }}</span><br />
+    <i style="font-size: 0.9em;">{{ pub.conference }}</i><br />
+    {% if pub.note %} <i style="font-size: 0.9em;">({{ pub.note }})</i> {% endif %} 
+    <i style="font-size: 0.9em;">{{ pub.year }}</i>
+    {% if pub.doi %} 
+      <span style="font-size: 0.9em;">[[doi]({{ pub.doi }})]</span> 
+    {% endif %}
     {% if pub.media %}
-      <br />Talk: 
+      <br />Media: 
       {% for article in pub.media %}
-        <a href="{{ article.url }}" target="_blank">{{ article.name }}</a>
-        <!-- <a href="{{ article.url_c}}" target = "_black">{{ article.conference}} </a> -->
+        <a href="{{ article.url }}" target="_blank" style="font-size: 0.9em;">{{ article.name }}</a>
       {% endfor %}
     {% endif %}
   </div>
 </div>
 {% endfor %}
 
----
 <!-- ### Publications -->
-### Research Papers
+<!-- ### Research Papers
 {% for pub in page.pubs %}
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
   {% if pub.image %}
@@ -94,7 +102,11 @@ I'm broadly interested in programming languages, verification, hardware design, 
     </div>
   {% endif %}
   <div>
-    <strong><a href="{% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %}">{{ pub.title }}</a></strong><br />
+    {% if pub.url %}
+      <strong><a href="{% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %}">{{ pub.title }}</a></strong><br />
+    {% else %}
+      <strong>{{ pub.title }}</strong><br />
+    {% endif %}
     {{ pub.author }}<br />
     <i>{{ pub.conference }}</i><br />
     {% if pub.note %} <i>({{ pub.note }})</i> {% endif %} <i>{{ pub.year }}</i>
@@ -107,9 +119,44 @@ I'm broadly interested in programming languages, verification, hardware design, 
     {% endif %}
   </div>
 </div>
+{% endfor %} -->
+
+<!-- ---
+### Research Papers -->
+### <span class="title-style">Research Papers</span>
+<hr class="title-line">
+
+<!-- ### <span style="color: silver;">Research Papers</span> -->
+
+{% for pub in page.pubs %}
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  {% if pub.image %}
+    <div style="margin-right: 20px;">
+      {% include image.html url=pub.image caption="" height="100px" align=thumbnail %}
+    </div>
+  {% endif %}
+  <div>
+    {% if pub.url %}
+      <strong style="font-size: 0.9em;"><a href="{% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %}">{{ pub.title }}</a></strong><br />
+    {% else %}
+      <strong style="font-size: 0.9em;">{{ pub.title }}</strong><br />
+    {% endif %}
+    <span style="font-size: 0.9em;">{{ pub.author }}</span><br />
+    <i style="font-size: 0.9em;">{{ pub.conference }}</i><br />
+    {% if pub.note %} <i style="font-size: 0.9em;">({{ pub.note }})</i> {% endif %} 
+    <i style="font-size: 0.9em;">{{ pub.year }}</i>
+    {% if pub.doi %} 
+      <span style="font-size: 0.9em;">[[doi]({{ pub.doi }})]</span> 
+    {% endif %}
+    {% if pub.media %}
+      <br />Media: 
+      {% for article in pub.media %}
+        <a href="{{ article.url }}" target="_blank" style="font-size: 0.9em;">{{ article.name }}</a>
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
 {% endfor %}
-
-
 
 <!-- <button onclick="togglePubDetails()">Show Publications</button>
 
@@ -150,8 +197,12 @@ I'm broadly interested in programming languages, verification, hardware design, 
   }
 </script> -->
 
-----
-### Extended Workshop Abstracts
+<!-- ----
+### Extended Workshop Abstracts -->
+
+### <span class="title-style">Extended Workshop Abstracts</span>
+<hr class="title-line">
+
 {% for pub in page.workshops %}
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
   {% if pub.image %}
@@ -160,16 +211,22 @@ I'm broadly interested in programming languages, verification, hardware design, 
     </div>
   {% endif %}
   <div>
-    <strong><a href="{% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %}">{{ pub.title }}</a></strong><br />
-    {{ pub.author }}<br />
-    <i>{{ pub.conference }}</i><br />
-    {% if pub.note %} <i>({{ pub.note }})</i> {% endif %} <i>{{ pub.year }}</i>
-    {% if pub.doi %} [[doi]({{ pub.doi }})] {% endif %}
+    {% if pub.url %}
+      <strong style="font-size: 0.9em;"><a href="{% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %}">{{ pub.title }}</a></strong><br />
+    {% else %}
+      <strong style="font-size: 0.9em;">{{ pub.title }}</strong><br />
+    {% endif %}
+    <span style="font-size: 0.9em;">{{ pub.author }}</span><br />
+    <i style="font-size: 0.9em;">{{ pub.conference }}</i><br />
+    {% if pub.note %} <i style="font-size: 0.9em;">({{ pub.note }})</i> {% endif %} 
+    <i style="font-size: 0.9em;">{{ pub.year }}</i>
+    {% if pub.doi %} 
+      <span style="font-size: 0.9em;">[[doi]({{ pub.doi }})]</span> 
+    {% endif %}
     {% if pub.media %}
-      <br />Talk: 
+      <br />Media: 
       {% for article in pub.media %}
-        <a href="{{ article.url }}" target="_blank">{{ article.name }}</a>
-        <!-- <a href="{{ article.url_c}}" target = "_black">{{ article.conference}} </a> -->
+        <a href="{{ article.url }}" target="_blank" style="font-size: 0.9em;">{{ article.name }}</a>
       {% endfor %}
     {% endif %}
   </div>
@@ -179,24 +236,31 @@ I'm broadly interested in programming languages, verification, hardware design, 
 
 
 
----
+<!-- ---
+### Achievements -->
 
-### Achievements
+### <span class="title-style">Achievements</span>
+<hr class="title-line">
 
 - [Summer@EPFL](https://summer.epfl.ch/) Fellowship
 - German National Scholarship (Deutschlandstipendium)
 - Bachelor’s Honors Program 
 
----
-### Teaching
+<!-- ---
+### Teaching -->
+
+### <span class="title-style">Teaching</span>
+<hr class="title-line">
 I'm a TA for a number of courses at UdS.
 - Saarland University: [**Introduction to Computational Logic**](https://cms.sic.saarland/icl_23/) (2023)
 - Saarland University: [**Programming 2**](https://cms.sic.saarland/prog2_23/) (2023)
 - Saarland University: [**Programming 2 Pre-Course**](https://cms.sic.saarland/p2vorkurs23/) (2023)
 
----
+<!-- ---
+### Events -->
 
-### Events
+### <span class="title-style">Events</span>
+<hr class="title-line">
 - SPLASH 2024
 - TYPES 2024
 - Iris Workshop 2023/2024
