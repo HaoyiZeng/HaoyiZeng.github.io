@@ -45,6 +45,7 @@ workshops:
 ongoing:
     - title: "Formalizing Hardware-Software Contracts in Lean"
       author: "Haoyi Zeng, Thomas Bourgeat"
+      url:    "slides/hwsw_green.pdf"
 ---
 
 {% include image.html url="images/Duessedorf.jpg" width="200px" align="right" %}
