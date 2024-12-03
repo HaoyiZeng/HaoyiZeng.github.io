@@ -236,7 +236,6 @@ I'm broadly interested in programming languages, verification, hardware design, 
 
 
 
-
 <!-- ---
 ### Achievements -->
 
@@ -246,6 +245,13 @@ I'm broadly interested in programming languages, verification, hardware design, 
 - [Summer@EPFL](https://summer.epfl.ch/) Fellowship
 - German National Scholarship (Deutschlandstipendium)
 - Bachelor’s Honors Program 
+
+<!-- ---
+### Thesis -->
+### <span class="title-style">Thesis</span>
+<hr class="title-line">
+- Bachelor's thesis:
+  [Post’s Problem and the Priority Method in Synthetic Computability](https://www.ps.uni-saarland.de/~zeng/bachelor/Zeng_thesis.pdf)
 
 <!-- ---
 ### Teaching -->
