@@ -3,17 +3,17 @@ layout: page
 title: Haoyi Zeng
 permalink: /
 pubs:
-    - title:   "The Blurred Drinker Paradox: Constructive Reverse Mathematics of the Downward Löwenheim-Skolem Theorem"
-      author:  "Dominik Kirst, Haoyi Zeng"
-      conference: "In Submission"
-
     - title:   "Post’s Problem in Constructive Mathematics"
       author:  "Haoyi Zeng, Yannick Forster, Dominik Kirst, Takako Nemoto"
-      conference: "In Submission"
+      conference: "Draft"
+
+    - title:   "The Blurred Drinker Paradox: Constructive Reverse Mathematics of the Downward Löwenheim-Skolem Theorem"
+      author:  "Dominik Kirst, Haoyi Zeng"
+      conference: "LICS 2025"
 
     - title:   "Destabilizing Iris"
       author:  "Simon Spies, Niklas Mück, Haoyi Zeng, Michael Sammler, Andrea Lattuada, Peter Müller, Derek Dreyer"
-      conference: "In Submission"
+      conference: "PLDI 2025"
 
 workshops:
     - title:   "Kawa: An Abstract Language for Scalable and Variable Detection of Spectre Vulnerabilities"
