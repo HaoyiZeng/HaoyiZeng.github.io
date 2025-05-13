@@ -275,10 +275,10 @@ I'm a TA for a number of courses at UdS.
 
 ### <span class="title-style">Events</span>
 <hr class="title-line">
-- SPLASH 2024
-- TYPES 2024
-- Iris Workshop 2023/2024
-- Proof and Computation 2023
+- SPLASH 2024 in Pasadena 
+- TYPES 2024 in Copenhagen
+- Iris Workshop 2023/2024 in Saarbrücken/Zurich
+- Proof and Computation 2023 in Herrsching
 
 <br>
 ---
