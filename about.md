@@ -55,6 +55,13 @@ I'm broadly interested in programming languages, verification, hardware design, 
 <!-- **Email:** (λx. λy. x00001@stud.uni-y.de) (haze) (saarland) -->
 📬 (λx. λy. x00001@stud.uni-y.de) (haze) (saarland)
 
+### Upcoming Events
+- PLISS 2025 in Bertinoro 🇮🇹
+- Iris workshop 2025 in Paris 🇫🇷
+- SuRI@EPFL 2025 🇨🇭
+- PLDI 2025 in Seoul 🇰🇷
+- LICS 2025 in Singapore 🇸🇬
+
 <br>
 
 <!-- ---
