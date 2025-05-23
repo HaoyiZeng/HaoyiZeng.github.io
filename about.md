@@ -58,6 +58,13 @@ I'm broadly interested in programming languages, verification, hardware design, 
 <!-- **Email:** (λx. λy. x00001@stud.uni-y.de) (haze) (saarland) -->
 📬 (λx. λy. x00001@stud.uni-y.de) (haze) (saarland)
 
+### Upcoming Events
+- PLISS 2025 in Bertinoro 🇮🇹
+- Iris workshop 2025 in Paris 🇫🇷
+- SuRI@EPFL 2025 🇨🇭
+- PLDI 2025 in Seoul 🇰🇷
+- LICS 2025 in Singapore 🇸🇬
+
 <br>
 
 <!-- ---
@@ -261,7 +268,7 @@ I'm broadly interested in programming languages, verification, hardware design, 
 ### <span class="title-style">Teaching</span>
 <hr class="title-line">
 I'm a TA for a number of courses at UdS.
-- Saarland University: [**Introduction to Computational Logic**](https://cms.sic.saarland/icl_23/) (2025)
+- Saarland University: [**Introduction to Computational Logic**](https://cms.sic.saarland/icl_25/) (2025)
 - Saarland University: [**Introduction to Computational Logic**](https://cms.sic.saarland/icl_23/) (2023)
 - Saarland University: [**Programming 2**](https://cms.sic.saarland/prog2_23/) (2023)
 - Saarland University: [**Programming 2 Pre-Course**](https://cms.sic.saarland/p2vorkurs23/) (2023)
@@ -271,10 +278,10 @@ I'm a TA for a number of courses at UdS.
 
 ### <span class="title-style">Events</span>
 <hr class="title-line">
-- SPLASH 2024
-- TYPES 2024
-- Iris Workshop 2023/2024
-- Proof and Computation 2023
+- SPLASH 2024 in Pasadena 
+- TYPES 2024 in Copenhagen
+- Iris Workshop 2023/2024 in Saarbrücken/Zurich
+- Proof and Computation 2023 in Herrsching
 
 <br>
 ---
