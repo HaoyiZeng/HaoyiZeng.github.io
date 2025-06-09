@@ -13,7 +13,7 @@ pubs:
       conference: "LICS"
       year: "2025"
       url: "https://lics.siglog.org/lics25/accepted.php"
-      award: "⭐ Distinguished Paper"
+      # award: "⭐ Distinguished Paper"
 
     - title:   "Destabilizing Iris"
       author:  "Simon Spies, Niklas Mück, Haoyi Zeng, Michael Sammler, Andrea Lattuada, Peter Müller, Derek Dreyer"
