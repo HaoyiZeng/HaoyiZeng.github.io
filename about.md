@@ -9,45 +9,54 @@ pubs:
       url: "https://inria.hal.science/hal-04923365v1/"
 
     - title:   "The Blurred Drinker Paradox: Constructive Reverse Mathematics of the Downward Löwenheim-Skolem Theorem"
-      author:  "Dominik Kirst, Haoyi Zeng"
-      conference: "LICS 2025"
+      author:  "Dominik Kirst*, Haoyi Zeng*"
+      conference: "LICS"
+      year: "2025"
       url: "https://lics.siglog.org/lics25/accepted.php"
+      award: "⭐ Distinguished Paper"
 
     - title:   "Destabilizing Iris"
       author:  "Simon Spies, Niklas Mück, Haoyi Zeng, Michael Sammler, Andrea Lattuada, Peter Müller, Derek Dreyer"
-      conference: "PLDI 2025"
+      conference: "PLDI"
+      year: "2025"
       url: "https://plv.mpi-sws.org/iris-daenerys/"
 
 workshops:
     - title:   "Kawa: An Abstract Language for Scalable and Variable Detection of Spectre Vulnerabilities"
       author:  "Zheyuan Wu, Haoyi Zeng, Aaron Bies"
-      conference: "SRC SPLASH 2024 🥉(3rd place in the undergraduate category)"
+      conference: "SRC SPLASH "
+      year: "2024"
+      award: "🥉 3rd place in the undergraduate category"
       url:     "https://dl.acm.org/doi/10.1145/3689491.3689971"
 
-    - title:   "Post’s Problem in Constructive Mathematics"
-      author:  "Haoyi Zeng, Yannick Forster, Dominik Kirst, Takako Nemoto"
-      conference: "CCC 2024"
-      url:     "https://www.ps.uni-saarland.de/~zeng/bachelor/CCC2024_Post.pdf"
+    # - title:   "Post’s Problem in Constructive Mathematics"
+    #   author:  "Haoyi Zeng, Yannick Forster, Dominik Kirst, Takako Nemoto"
+    #   conference: "CCC"
+    #   year: "2024"
+    #   url:     "https://www.ps.uni-saarland.de/~zeng/bachelor/CCC2024_Post.pdf"
 
-    - title:   "Constructive Reverse Mathematics of the Downward Löwenheim-Skolem Theorem"
-      author:  "Dominik Kirst, Haoyi Zeng"
-      conference: "Logic Colloquium 2024"
-      url:     "https://www.ps.uni-saarland.de/~zeng/bachelor/LC_2024_LS.pdf"
+    # - title:   "Constructive Reverse Mathematics of the Downward Löwenheim-Skolem Theorem"
+    #   author:  "Dominik Kirst, Haoyi Zeng"
+    #   conference: "LC"
+    #   year: "2024"
+    #   url:     "https://www.ps.uni-saarland.de/~zeng/bachelor/LC_2024_LS.pdf"
 
     - title:   "Post’s Problem and the Priority Method in CIC"
       author:  "Haoyi Zeng, Yannick Forster, Dominik Kirst"
-      conference: "TYPES 2024"
+      conference: "TYPES"
+      year: "2024"
       url:     "https://www.ps.uni-saarland.de/~zeng/bachelor/TYPES_2024_Post.pdf"
 
-    - title:   "The Blurred Drinker Paradox and Blurred Choice Axioms for the Downward Löwenheim-Skolem Theorem"
-      author:  "Dominik Kirst, Haoyi Zeng"
-      conference: "TYPES 2024"
-      url:     "https://www.ps.uni-saarland.de/~zeng/bachelor/TYPES_2024_LS.pdf"
+    # - title:   "The Blurred Drinker Paradox and Blurred Choice Axioms for the Downward Löwenheim-Skolem Theorem"
+    #   author:  "Dominik Kirst, Haoyi Zeng"
+    #   conference: "TYPES"
+    #   year: "2024"
+    #   url:     "https://www.ps.uni-saarland.de/~zeng/bachelor/TYPES_2024_LS.pdf"
 
 ongoing:
     - title: "Formalizing Hardware-Software Contracts in Lean"
       author: "Haoyi Zeng, Thomas Bourgeat"
-      url:    "slides/hwsw_green.pdf"
+      # url:    "slides/hwsw_green.pdf"
 ---
 
 {% include image.html url="images/Duessedorf.jpg" width="200px" align="right" %}
@@ -59,8 +68,6 @@ I'm broadly interested in programming languages, verification, hardware design, 
 📬 (λx. λy. x00001@stud.uni-y.de) (haze) (saarland)
 
 ### Upcoming Events
-- PLISS 2025 in Bertinoro 🇮🇹
-- Iris workshop 2025 in Paris 🇫🇷
 - SuRI@EPFL 2025 🇨🇭
 - PLDI 2025 in Seoul 🇰🇷
 - LICS 2025 in Singapore 🇸🇬
@@ -85,8 +92,9 @@ I'm broadly interested in programming languages, verification, hardware design, 
     {% else %}
       <strong style="font-size: 0.9em;">{{ pub.title }}</strong><br />
     {% endif %}
-    <span style="font-size: 0.9em;">{{ pub.author }}</span><br />
-    <i style="font-size: 0.9em;">{{ pub.conference }}</i><br />
+    <span style="font-size: 0.9em;">{{ pub.author | replace: "Haoyi Zeng", "<span style='font-weight: 999; color: #999; '>Haoyi Zeng</span>" }}</span><br />
+    <span style="font-family: Georgia, serif; font-variant: small-caps; font-size: 0.85em;">
+  {{ pub.conference | downcase }} {{ pub.year }}</span>
     {% if pub.note %} <i style="font-size: 0.9em;">({{ pub.note }})</i> {% endif %} 
     <i style="font-size: 0.9em;">{{ pub.year }}</i>
     {% if pub.doi %} 
@@ -133,7 +141,9 @@ I'm broadly interested in programming languages, verification, hardware design, 
 
 <!-- ---
 ### Research Papers -->
-### <span class="title-style">Research Papers</span>
+<!-- ### <span class="title-style">Research Papers </span> -->
+### <span class="title-style">Research Papers</span> <span style="font-size: 0.6em; margin-left: 10px;"><i>(* equal contribution)</i></span>
+
 <hr class="title-line">
 
 <!-- ### <span style="color: silver;">Research Papers</span> -->
@@ -151,10 +161,15 @@ I'm broadly interested in programming languages, verification, hardware design, 
     {% else %}
       <strong style="font-size: 0.9em;">{{ pub.title }}</strong><br />
     {% endif %}
-    <span style="font-size: 0.9em;">{{ pub.author }}</span><br />
-    <i style="font-size: 0.9em;">{{ pub.conference }}</i><br />
+    <span style="font-size: 0.9em;">{{ pub.author | replace: "Haoyi Zeng", "<span style='font-weight: 999; color: #999; '>Haoyi Zeng</span>" }}</span><br />
+    <span style="font-family: Georgia, serif; font-variant: small-caps; font-size: 1.2em;">
+      {{ pub.conference | downcase }}
+      <span style="font-size: 0.75em;"> {{ pub.year }}</span>
+      {% if pub.award %}
+      <span style="font-size: 0.75em; color: #0a5c0a"> {{ pub.award | downcase}}</span>
+      {% endif %}
+    </span>
     {% if pub.note %} <i style="font-size: 0.9em;">({{ pub.note }})</i> {% endif %} 
-    <i style="font-size: 0.9em;">{{ pub.year }}</i>
     {% if pub.doi %} 
       <span style="font-size: 0.9em;">[[doi]({{ pub.doi }})]</span> 
     {% endif %}
@@ -167,6 +182,7 @@ I'm broadly interested in programming languages, verification, hardware design, 
   </div>
 </div>
 {% endfor %}
+
 
 <!-- <button onclick="togglePubDetails()">Show Publications</button>
 
@@ -226,10 +242,14 @@ I'm broadly interested in programming languages, verification, hardware design, 
     {% else %}
       <strong style="font-size: 0.9em;">{{ pub.title }}</strong><br />
     {% endif %}
-    <span style="font-size: 0.9em;">{{ pub.author }}</span><br />
-    <i style="font-size: 0.9em;">{{ pub.conference }}</i><br />
-    {% if pub.note %} <i style="font-size: 0.9em;">({{ pub.note }})</i> {% endif %} 
-    <i style="font-size: 0.9em;">{{ pub.year }}</i>
+    <span style="font-size: 0.9em;">{{ pub.author | replace: "Haoyi Zeng", "<span style='font-weight: 999; color: #999; '>Haoyi Zeng</span>" }}</span><br />
+    <span style="font-family: Georgia, serif; font-variant: small-caps; font-size: 1.2em;">
+      {{ pub.conference | downcase }}
+      <span style="font-size: 0.75em;"> {{ pub.year }}</span>
+      {% if pub.award %}
+      <span style="font-size: 0.75em; color: #0a5c0a"> {{ pub.award | downcase}}</span>
+      {% endif %}
+    </span>
     {% if pub.doi %} 
       <span style="font-size: 0.9em;">[[doi]({{ pub.doi }})]</span> 
     {% endif %}
@@ -278,10 +298,11 @@ I'm a TA for a number of courses at UdS.
 
 ### <span class="title-style">Events</span>
 <hr class="title-line">
-- SPLASH 2024 in Pasadena 
-- TYPES 2024 in Copenhagen
-- Iris Workshop 2023/2024 in Saarbrücken/Zurich
-- Proof and Computation 2023 in Herrsching
+- **PLISS** 2025
+- **SPLASH** 2024 
+- **TYPES** 2024
+- **Iris Workshop** 2023/2024/2025
+- **Proof and Computation** 2023
 
 <br>
 ---
