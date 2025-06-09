@@ -228,7 +228,7 @@ I'm broadly interested in programming languages, verification, hardware design, 
 <!-- ----
 ### Extended Workshop Abstracts -->
 
-### <span class="title-style">Extended Workshop Abstracts</span>
+### <span class="title-style">Extended Workshop Abstracts<span style="font-size: 0.6em;color: #999; margin-left: 10px;"><i>(selected)</i></span>
 <hr class="title-line">
 
 {% for pub in page.workshops %}
