@@ -13,7 +13,7 @@ pubs:
       conference: "LICS"
       year: "2025"
       url: "https://lics.siglog.org/lics25/accepted.php"
-      # award: "⭐ Distinguished Paper"
+      award: "⭐ Distinguished Paper"
 
     - title:   "Destabilizing Iris"
       author:  "Simon Spies, Niklas Mück, Haoyi Zeng, Michael Sammler, Andrea Lattuada, Peter Müller, Derek Dreyer"
@@ -92,7 +92,7 @@ I'm broadly interested in programming languages, verification, hardware design, 
     {% else %}
       <strong style="font-size: 0.9em;">{{ pub.title }}</strong><br />
     {% endif %}
-    <span style="font-size: 0.9em;">{{ pub.author | replace: "Haoyi Zeng", "<span style='font-weight: 999; color: #999; '>Haoyi Zeng</span>" }}</span><br />
+    <span style="font-size: 0.9em;">{{ pub.author | replace: "Haoyi Zeng", "<span style='font-weight: 500; color: #999; '>Haoyi Zeng</span>" }}</span><br />
     <span style="font-family: Georgia, serif; font-variant: small-caps; font-size: 0.85em;">
   {{ pub.conference | downcase }} {{ pub.year }}</span>
     {% if pub.note %} <i style="font-size: 0.9em;">({{ pub.note }})</i> {% endif %} 
@@ -142,7 +142,7 @@ I'm broadly interested in programming languages, verification, hardware design, 
 <!-- ---
 ### Research Papers -->
 <!-- ### <span class="title-style">Research Papers </span> -->
-### <span class="title-style">Research Papers</span> <span style="font-size: 0.6em; margin-left: 10px;"><i>(* equal contribution)</i></span>
+### <span class="title-style">Research Papers</span> <span style="font-size: 0.6em;color: #999; margin-left: 10px;"><i>(* equal contribution)</i></span>
 
 <hr class="title-line">
 
@@ -161,7 +161,7 @@ I'm broadly interested in programming languages, verification, hardware design, 
     {% else %}
       <strong style="font-size: 0.9em;">{{ pub.title }}</strong><br />
     {% endif %}
-    <span style="font-size: 0.9em;">{{ pub.author | replace: "Haoyi Zeng", "<span style='font-weight: 999; color: #999; '>Haoyi Zeng</span>" }}</span><br />
+    <span style="font-size: 0.9em;">{{ pub.author | replace: "Haoyi Zeng", "<span style='font-weight: 500; color: #999; '>Haoyi Zeng</span>" }}</span><br />
     <span style="font-family: Georgia, serif; font-variant: small-caps; font-size: 1.2em;">
       {{ pub.conference | downcase }}
       <span style="font-size: 0.75em;"> {{ pub.year }}</span>
@@ -242,7 +242,7 @@ I'm broadly interested in programming languages, verification, hardware design, 
     {% else %}
       <strong style="font-size: 0.9em;">{{ pub.title }}</strong><br />
     {% endif %}
-    <span style="font-size: 0.9em;">{{ pub.author | replace: "Haoyi Zeng", "<span style='font-weight: 999; color: #999; '>Haoyi Zeng</span>" }}</span><br />
+    <span style="font-size: 0.9em;">{{ pub.author | replace: "Haoyi Zeng", "<span style='font-weight: 500; color: #999; '>Haoyi Zeng</span>" }}</span><br />
     <span style="font-family: Georgia, serif; font-variant: small-caps; font-size: 1.2em;">
       {{ pub.conference | downcase }}
       <span style="font-size: 0.75em;"> {{ pub.year }}</span>
