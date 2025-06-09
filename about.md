@@ -67,6 +67,8 @@ I'm broadly interested in programming languages, verification, hardware design, 
 <!-- **Email:** (λx. λy. x00001@stud.uni-y.de) (haze) (saarland) -->
 📬 (λx. λy. x00001@stud.uni-y.de) (haze) (saarland)
 
+📝 [Curriculum Vitae](https://haoyizeng.github.io/CV/haoyi_CV.pdf)
+
 ### Upcoming Events
 - SuRI@EPFL 2025 🇨🇭
 - PLDI 2025 in Seoul 🇰🇷
