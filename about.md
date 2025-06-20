@@ -273,7 +273,7 @@ I'm broadly interested in programming languages, verification, hardware design, 
 <hr class="title-line">
 
 - Distinguished Paper Award: PLDI 2025, LICS 2025
-- Bronze Medal *(Undergraduate Category)*: SRC SPLASH 2025
+- Bronze Medal (Undergraduate Category): SRC SPLASH 2025
 - [Summer@EPFL](https://summer.epfl.ch/) Fellowship
 - German National Scholarship (Deutschlandstipendium)
 - Bachelor’s Honors Program 
