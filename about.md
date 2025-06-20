@@ -19,6 +19,7 @@ pubs:
       author:  "Simon Spies, Niklas Mück, Haoyi Zeng, Michael Sammler, Andrea Lattuada, Peter Müller, Derek Dreyer"
       conference: "PLDI"
       year: "2025"
+      award: "⭐ Distinguished Paper"
       url: "https://plv.mpi-sws.org/iris-daenerys/"
 
 workshops:
@@ -26,7 +27,7 @@ workshops:
       author:  "Zheyuan Wu, Haoyi Zeng, Aaron Bies"
       conference: "SRC SPLASH "
       year: "2024"
-      award: "🥉 3rd place in the undergraduate category"
+      award: "🥉 Bronze Medal"
       url:     "https://dl.acm.org/doi/10.1145/3689491.3689971"
 
     # - title:   "Post’s Problem in Constructive Mathematics"
@@ -70,8 +71,6 @@ I'm broadly interested in programming languages, verification, hardware design, 
 📝 [Curriculum Vitae](CV/Haoyi_CV.pdf)
 
 ### Upcoming Events
-- SuRI@EPFL 2025 🇨🇭
-- PLDI 2025 in Seoul 🇰🇷
 - LICS 2025 in Singapore 🇸🇬
 
 <br>
@@ -273,6 +272,8 @@ I'm broadly interested in programming languages, verification, hardware design, 
 ### <span class="title-style">Achievements</span>
 <hr class="title-line">
 
+- Distinguished Paper Award: PLDI 2025, LICS 2025
+- Bronze Medal *(Undergraduate Category)*: SRC SPLASH 2025
 - [Summer@EPFL](https://summer.epfl.ch/) Fellowship
 - German National Scholarship (Deutschlandstipendium)
 - Bachelor’s Honors Program 
@@ -281,7 +282,7 @@ I'm broadly interested in programming languages, verification, hardware design, 
 ### Thesis -->
 ### <span class="title-style">Thesis</span>
 <hr class="title-line">
-- Bachelor's thesis:
+- **Bachelor's Thesis**:
   [Post’s Problem and the Priority Method in Synthetic Computability](https://www.ps.uni-saarland.de/~zeng/bachelor/Zeng_thesis.pdf)
 
 <!-- ---
@@ -300,6 +301,8 @@ I'm a TA for a number of courses at UdS.
 
 ### <span class="title-style">Events</span>
 <hr class="title-line">
+- **PLDI** 2025
+- **SuRI@EPFL** 2025
 - **PLISS** 2025
 - **SPLASH** 2024 
 - **TYPES** 2024
