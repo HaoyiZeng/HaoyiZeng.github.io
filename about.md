@@ -61,10 +61,11 @@ ongoing:
 ---
 
 {% include image.html url="images/Duessedorf.jpg" width="200px" align="right" %}
-Hey! I'm a computer science undergrad at [Saarland University](https://saarland-informatics-campus.de/en/).
+Hey! I'm a computer science undergrad at [Saarland University](https://saarland-informatics-campus.de/en/). I'm broadly interested in verification, programming languages, hardware, and type theory.
 
-I'm broadly interested in verification, programming languages, hardware, and type theory.
-Currently, I'm a research assistant at [MPI-SWS](https://www.mpi-sws.org/), working with [Derek Dreyer](https://people.mpi-sws.org/~dreyer/research.html).
+Currently, I'm a research assistant at [MPI-SWS](https://www.mpi-sws.org/), working with [Derek Dreyer](https://people.mpi-sws.org/~dreyer/research.html). I’m also collaborating with [Jana Hoffmann](https://janahofmann.github.io/) at [MPI-SP](https://www.mpi-sp.org/).
+
+Previously, I did a summer internship at [EPFL](https://www.epfl.ch/en/) with [Thomas Bourgeat](https://people.csail.mit.edu/bthom/), and during my bachelor's, I’ve also worked with [Dominik Kirst](https://www.ps.uni-saarland.de/~kirst/) and [Yannick Forster](https://yforster.de/) at [Inria](https://www.inria.fr/en), and with [Jan Reineke](https://embedded.cs.uni-saarland.de/reineke.php) at [Saarland University](https://saarland-informatics-campus.de/en/).
 
 <!-- **Email:** (λx. λy. x00001@stud.uni-y.de) (haze) (saarland) -->
 📬 (λx. λy. x00001@stud.uni-y.de) (haze) (saarland)
