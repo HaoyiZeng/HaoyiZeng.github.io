@@ -8,7 +8,7 @@ pubs:
       conference: "Draft"
       url: "https://inria.hal.science/hal-04923365v1/"
 
-    - title:   "The Blurred Drinker Paradox: Constructive Reverse Mathematics of the Downward Löwenheim-Skolem Theorem"
+    - title:   "The Blurred Drinker Paradox"
       author:  "Dominik Kirst*, Haoyi Zeng*"
       conference: "LICS"
       year: "2025"
@@ -61,9 +61,10 @@ ongoing:
 ---
 
 {% include image.html url="images/Duessedorf.jpg" width="200px" align="right" %}
+Hey! I'm a computer science undergrad at [Saarland University](https://saarland-informatics-campus.de/en/).
 
-Hey, I'm a computer science bachelor student at [Saarland University]. 
-I'm broadly interested in programming languages, verification, hardware design, and type theory.
+I'm broadly interested in verification, programming languages, hardware, and type theory.
+Currently, I'm a research assistant at [MPI-SWS](https://www.mpi-sws.org/), working with [Derek Dreyer](https://people.mpi-sws.org/~dreyer/research.html).
 
 <!-- **Email:** (λx. λy. x00001@stud.uni-y.de) (haze) (saarland) -->
 📬 (λx. λy. x00001@stud.uni-y.de) (haze) (saarland)
