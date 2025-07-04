@@ -3,6 +3,11 @@ layout: page
 title: Haoyi Zeng
 permalink: /
 pubs:
+    # - title:   "Contractor: Interactive Proofs for Hardware Sofware Contracts"
+    #   author:  "Arthur Correnson, Haoyi Zeng, Jana Hoffmann"
+    #   conference: "Draft"
+    #   url: ""
+
     - title:   "Post’s Problem in Constructive Mathematics"
       author:  "Haoyi Zeng, Yannick Forster, Dominik Kirst, Takako Nemoto"
       conference: "Draft"
@@ -55,9 +60,9 @@ workshops:
     #   url:     "https://www.ps.uni-saarland.de/~zeng/bachelor/TYPES_2024_LS.pdf"
 
 ongoing:
-    - title: "Formalizing Hardware-Software Contracts in Lean"
-      author: "Haoyi Zeng, Thomas Bourgeat"
-      # url:    "slides/hwsw_green.pdf"
+    # - title: "Formalizing Hardware-Software Contracts in Lean"
+    #   author: "Haoyi Zeng, Thomas Bourgeat"
+    #   url:    "slides/hwsw_green.pdf"
 ---
 
 {% include image.html url="images/Duessedorf.jpg" width="200px" align="right" %}
@@ -65,53 +70,15 @@ Hey! I'm a computer science undergrad at [Saarland University](https://saarland-
 
 Currently, I'm a research assistant at [MPI-SWS](https://www.mpi-sws.org/), working with [Derek Dreyer](https://people.mpi-sws.org/~dreyer/research.html). I’m also collaborating with [Jana Hoffmann](https://janahofmann.github.io/) at [MPI-SP](https://www.mpi-sp.org/).
 
-Previously, I did a summer internship at [EPFL](https://www.epfl.ch/en/) with [Thomas Bourgeat](https://people.csail.mit.edu/bthom/), and during my bachelor's, I’ve also worked with [Dominik Kirst](https://www.ps.uni-saarland.de/~kirst/) and [Yannick Forster](https://yforster.de/) at [Inria](https://www.inria.fr/en), and with [Jan Reineke](https://embedded.cs.uni-saarland.de/reineke.php) at [Saarland University](https://saarland-informatics-campus.de/en/).
+<!-- Previously, I did a summer internship at [EPFL](https://www.epfl.ch/en/) with [Thomas Bourgeat](https://people.csail.mit.edu/bthom/), and during my bachelor's, I’ve also worked with [Dominik Kirst](https://www.ps.uni-saarland.de/~kirst/) and [Yannick Forster](https://yforster.de/) at [Inria](https://www.inria.fr/en), and with [Jan Reineke](https://embedded.cs.uni-saarland.de/reineke.php) at [Saarland University](https://saarland-informatics-campus.de/en/). -->
 
 <!-- **Email:** (λx. λy. x00001@stud.uni-y.de) (haze) (saarland) -->
 📬 (λx. λy. x00001@stud.uni-y.de) (haze) (saarland)
 
 📝 [Curriculum Vitae](CV/Haoyi_CV.pdf)
 
-### Upcoming Events
-- LICS 2025 in Singapore 🇸🇬
-
 <br>
 
-<!-- ---
-### Ongoing Projects -->
-### <span class="title-style">Ongoing Projects</span>
-<hr class="title-line">
-
-{% for pub in page.ongoing %}
-<div style="display: flex; align-items: center; margin-bottom: 20px;">
-  {% if pub.image %}
-    <div style="margin-right: 20px;">
-      {% include image.html url=pub.image caption="" height="100px" align=thumbnail %}
-    </div>
-  {% endif %}
-  <div>
-    {% if pub.url %}
-      <strong style="font-size: 0.9em;"><a href="{% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %}">{{ pub.title }}</a></strong><br />
-    {% else %}
-      <strong style="font-size: 0.9em;">{{ pub.title }}</strong><br />
-    {% endif %}
-    <span style="font-size: 0.9em;">{{ pub.author | replace: "Haoyi Zeng", "<span style='font-weight: 500; color: #999; '>Haoyi Zeng</span>" }}</span><br />
-    <span style="font-family: Georgia, serif; font-variant: small-caps; font-size: 0.85em;">
-  {{ pub.conference | downcase }} {{ pub.year }}</span>
-    {% if pub.note %} <i style="font-size: 0.9em;">({{ pub.note }})</i> {% endif %} 
-    <i style="font-size: 0.9em;">{{ pub.year }}</i>
-    {% if pub.doi %} 
-      <span style="font-size: 0.9em;">[[doi]({{ pub.doi }})]</span> 
-    {% endif %}
-    {% if pub.media %}
-      <br />Media: 
-      {% for article in pub.media %}
-        <a href="{{ article.url }}" target="_blank" style="font-size: 0.9em;">{{ article.name }}</a>
-      {% endfor %}
-    {% endif %}
-  </div>
-</div>
-{% endfor %}
 
 <!-- ### Publications -->
 <!-- ### Research Papers
@@ -303,6 +270,7 @@ I'm a TA for a number of courses at UdS.
 
 ### <span class="title-style">Events</span>
 <hr class="title-line">
+- **LICS** 2025
 - **PLDI** 2025
 - **SuRI@EPFL** 2025
 - **PLISS** 2025
