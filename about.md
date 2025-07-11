@@ -3,10 +3,10 @@ layout: page
 title: Haoyi Zeng
 permalink: /
 pubs:
-    # - title:   "Contractor: Interactive Proofs for Hardware Sofware Contracts"
-    #   author:  "Arthur Correnson, Haoyi Zeng, Jana Hoffmann"
-    #   conference: "Draft"
-    #   url: ""
+    - title:   "Interactive Proofs for Hardware-Sofware Contracts"
+      author:  "Arthur Correnson, Haoyi Zeng, Jana Hoffmann"
+      conference: "Draft"
+      url: ""
 
     - title:   "Post’s Problem in Constructive Mathematics"
       author:  "Haoyi Zeng, Yannick Forster, Dominik Kirst, Takako Nemoto"
