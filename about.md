@@ -28,12 +28,20 @@ pubs:
       url: "https://plv.mpi-sws.org/iris-daenerys/"
 
 workshops:
+
     - title:   "Kawa: An Abstract Language for Scalable and Variable Detection of Spectre Vulnerabilities"
       author:  "Zheyuan Wu, Haoyi Zeng, Aaron Bies"
       conference: "SRC SPLASH "
       year: "2024"
       award: "🥉 Bronze Medal"
       url:     "https://dl.acm.org/doi/10.1145/3689491.3689971"
+
+
+    - title: "Formalizing Hardware-Software Contracts in Lean"
+      author: "Haoyi Zeng, Thomas Bourgeat"
+      url:    "slides/hwsw_green.pdf"
+      # conference: "TeaTime"
+      # year: "2024"
 
     # - title:   "Post’s Problem in Constructive Mathematics"
     #   author:  "Haoyi Zeng, Yannick Forster, Dominik Kirst, Takako Nemoto"
@@ -51,7 +59,7 @@ workshops:
       author:  "Haoyi Zeng, Yannick Forster, Dominik Kirst"
       conference: "TYPES"
       year: "2024"
-      url:     "https://www.ps.uni-saarland.de/~zeng/bachelor/TYPES_2024_Post.pdf"
+      url:     "https://www.ps.uni-saarland.de/~zeng/bachelor/TYPES_talk.pdf"
 
     # - title:   "The Blurred Drinker Paradox and Blurred Choice Axioms for the Downward Löwenheim-Skolem Theorem"
     #   author:  "Dominik Kirst, Haoyi Zeng"
@@ -60,9 +68,7 @@ workshops:
     #   url:     "https://www.ps.uni-saarland.de/~zeng/bachelor/TYPES_2024_LS.pdf"
 
 ongoing:
-    # - title: "Formalizing Hardware-Software Contracts in Lean"
-    #   author: "Haoyi Zeng, Thomas Bourgeat"
-    #   url:    "slides/hwsw_green.pdf"
+
 ---
 
 {% include image.html url="images/Duessedorf.jpg" width="200px" align="right" %}
@@ -196,7 +202,7 @@ Currently, I'm a research assistant at [MPI-SWS](https://www.mpi-sws.org/), work
 <!-- ----
 ### Extended Workshop Abstracts -->
 
-### <span class="title-style">Extended Workshop Abstracts<span style="font-size: 0.6em;color: #999; margin-left: 10px;"><i>(selected)</i></span>
+### <span class="title-style">Extended Workshop Abstracts and Talks<span style="font-size: 0.6em;color: #999; margin-left: 10px;"><i>(selected)</i></span>
 <hr class="title-line">
 
 {% for pub in page.workshops %}
