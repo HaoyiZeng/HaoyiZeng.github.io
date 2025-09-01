@@ -3,10 +3,10 @@ layout: page
 title: Haoyi Zeng
 permalink: /
 pubs:
-    # - title:   "Interactive Proofs for Hardware-Sofware Contracts"
-    #   author:  "Arthur Correnson, Haoyi Zeng, Jana Hoffmann"
-    #   conference: "Draft"
-    #   url: ""
+    - title:   "Interactive Proofs for Hardware-Sofware Contracts"
+      author:  "Arthur Correnson, Haoyi Zeng, Jana Hoffmann"
+      conference: "Draft"
+      url: ""
 
     - title:   "Post’s Problem in Constructive Mathematics"
       author:  "Haoyi Zeng, Yannick Forster, Dominik Kirst, Takako Nemoto"
@@ -27,8 +27,6 @@ pubs:
       award: "⭐ Distinguished Paper Award"
       url: "https://plv.mpi-sws.org/iris-daenerys/"
 
-workshops:
-
     - title:   "Kawa: An Abstract Language for Scalable and Variable Detection of Spectre Vulnerabilities"
       author:  "Zheyuan Wu, Haoyi Zeng, Aaron Bies"
       conference: "SRC SPLASH "
@@ -36,12 +34,14 @@ workshops:
       award: "🥉 Bronze Medal"
       url:     "https://dl.acm.org/doi/10.1145/3689491.3689971"
 
+workshops:
+
 
     - title: "Formalizing Hardware-Software Contracts in Lean"
-      author: "Haoyi Zeng, Thomas Bourgeat"
+      author: "Joint work with Thomas Bourgeat"
       url:    "slides/hwsw_green.pdf"
-      # conference: "TeaTime"
-      # year: "2024"
+      conference: "MPI-SWS"
+      year: "2024"
 
     # - title:   "Post’s Problem in Constructive Mathematics"
     #   author:  "Haoyi Zeng, Yannick Forster, Dominik Kirst, Takako Nemoto"
@@ -56,16 +56,16 @@ workshops:
     #   url:     "https://www.ps.uni-saarland.de/~zeng/bachelor/LC_2024_LS.pdf"
 
     - title:   "Post’s Problem and the Priority Method in CIC"
-      author:  "Haoyi Zeng, Yannick Forster, Dominik Kirst"
+      author:  "Joint work with Yannick Forster, Dominik Kirst"
       conference: "TYPES"
       year: "2024"
       url:     "https://www.ps.uni-saarland.de/~zeng/bachelor/TYPES_talk.pdf"
 
-    # - title:   "The Blurred Drinker Paradox and Blurred Choice Axioms for the Downward Löwenheim-Skolem Theorem"
-    #   author:  "Dominik Kirst, Haoyi Zeng"
-    #   conference: "TYPES"
-    #   year: "2024"
-    #   url:     "https://www.ps.uni-saarland.de/~zeng/bachelor/TYPES_2024_LS.pdf"
+    - title:   "The Downward Löwenheim-Skolem Theorem and the Blurred Drinker Paradox"
+      author:  "Joint work with Dominik Kirst"
+      conference: "Saarland University"
+      year: "2023"
+      url:     "slides/dls.pdf"
 
 ongoing:
 
@@ -138,11 +138,11 @@ Currently, I'm a research assistant at [MPI-SWS](https://www.mpi-sws.org/), work
       <strong style="font-size: 0.9em;">{{ pub.title }}</strong><br />
     {% endif %}
     <span style="font-size: 0.9em;">{{ pub.author | replace: "Haoyi Zeng", "<span style='font-weight: 500; color: #999; '>Haoyi Zeng</span>" }}</span><br />
-    <span style="font-family: Georgia, serif; font-variant: small-caps; font-size: 1.2em;">
+    <span style="font-family: Georgia, serif; font-variant: small-caps; font-size: 1em;">
       {{ pub.conference | downcase }}
-      <span style="font-size: 0.75em;"> {{ pub.year }}</span>
+      <span style="font-size: 0.9em;"> {{ pub.year }}</span>
       {% if pub.award %}
-      <span style="font-size: 0.75em; color: #0a5c0a"> {{ pub.award | downcase}}</span>
+      <span style="font-size: 0.8em; color: #0a5c0a"> {{ pub.award | downcase}}</span>
       {% endif %}
     </span>
     {% if pub.note %} <i style="font-size: 0.9em;">({{ pub.note }})</i> {% endif %} 
@@ -202,7 +202,7 @@ Currently, I'm a research assistant at [MPI-SWS](https://www.mpi-sws.org/), work
 <!-- ----
 ### Extended Workshop Abstracts -->
 
-### <span class="title-style">Extended Workshop Abstracts and Talks<span style="font-size: 0.6em;color: #999; margin-left: 10px;"><i>(selected)</i></span>
+### <span class="title-style">Talks<span style="font-size: 0.6em;color: #999; margin-left: 10px;"><i>(selected)</i></span>
 <hr class="title-line">
 
 {% for pub in page.workshops %}
@@ -219,11 +219,11 @@ Currently, I'm a research assistant at [MPI-SWS](https://www.mpi-sws.org/), work
       <strong style="font-size: 0.9em;">{{ pub.title }}</strong><br />
     {% endif %}
     <span style="font-size: 0.9em;">{{ pub.author | replace: "Haoyi Zeng", "<span style='font-weight: 500; color: #999; '>Haoyi Zeng</span>" }}</span><br />
-    <span style="font-family: Georgia, serif; font-variant: small-caps; font-size: 1.2em;">
+    <span style="font-family: Georgia, serif; font-variant: small-caps; font-size: 1em;">
       {{ pub.conference | downcase }}
-      <span style="font-size: 0.75em;"> {{ pub.year }}</span>
+      <span style="font-size: 0.9em;"> {{ pub.year }}</span>
       {% if pub.award %}
-      <span style="font-size: 0.75em; color: #0a5c0a"> {{ pub.award | downcase}}</span>
+      <span style="font-size: 0.8em; color: #0a5c0a"> {{ pub.award | downcase}}</span>
       {% endif %}
     </span>
     {% if pub.doi %} 
