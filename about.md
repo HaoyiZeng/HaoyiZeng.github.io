@@ -4,7 +4,7 @@ title: Haoyi Zeng
 permalink: /
 pubs:
     - title:   "Interactive Proofs for Hardware-Sofware Contracts"
-      author:  "Arthur Correnson, Haoyi Zeng, Jana Hoffmann"
+      author:  "Arthur Correnson, Haoyi Zeng, Jana Hofmann"
       conference: "Draft"
       url: ""
 
