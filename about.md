@@ -3,7 +3,7 @@ layout: page
 title: Haoyi Zeng
 permalink: /
 pubs:
-    - title:   "Interactive Proofs for Hardware-Sofware Contracts"
+    - title:   "A Deductive System for Contract Satisfaction Proofs"
       author:  "Arthur Correnson, Haoyi Zeng, Jana Hofmann"
       conference: "Draft"
       url: ""
@@ -36,11 +36,17 @@ pubs:
 
 workshops:
 
+    # - title: "Destabilizing Iris"
+    #   author: "Joint work with Simon Spies, Niklas Mück, Michael Sammler, Andrea Lattuada, Peter Müller, Derek Dreyer"
+    #   url:    "slides/pdos.pdf"
+    #   conference: "PDOS@MIT"
+    #   year: "2025"
+
 
     - title: "Formalizing Hardware-Software Contracts in Lean"
       author: "Joint work with Thomas Bourgeat"
       url:    "slides/hwsw_green.pdf"
-      conference: "MPI-SWS"
+      conference: "FP@MPI-SWS"
       year: "2024"
 
     # - title:   "Post’s Problem in Constructive Mathematics"
@@ -63,7 +69,7 @@ workshops:
 
     - title:   "The Downward Löwenheim-Skolem Theorem and the Blurred Drinker Paradox"
       author:  "Joint work with Dominik Kirst"
-      conference: "Saarland University"
+      conference: "PSL@UdS"
       year: "2023"
       url:     "slides/dls.pdf"
 
@@ -72,14 +78,20 @@ ongoing:
 ---
 
 {% include image.html url="images/Duessedorf.jpg" width="200px" align="right" %}
-Hey! I'm a computer science undergrad at [Saarland University](https://saarland-informatics-campus.de/en/). I'm broadly interested in verification, programming languages, hardware, and type theory.
 
-Currently, I'm a research assistant at [MPI-SWS](https://www.mpi-sws.org/), working with [Derek Dreyer](https://people.mpi-sws.org/~dreyer/research.html). I’m also collaborating with [Jana Hofmann](https://janahofmann.github.io/) at [MPI-SP](https://www.mpi-sp.org/).
+Hey! I’m a computer science graduate student at [Harvard University](https://seas.harvard.edu/). I’m broadly interested in verification, programming languages, hardware security, and type theory. 
+<!-- Before this, I did my undergrad at [Saarland University](https://saarland-informatics-campus.de/en/). -->
+<!-- , where I worked with [Derek Dreyer](https://people.mpi-sws.org/~dreyer/research.html) at [MPI-SWS](https://www.mpi-sws.org/) and collaborated with [Jana Hofmann](https://janahofmann.github.io/) at [MPI-SP](https://www.mpi-sp.org/). -->
+
+
+<!-- Hey! I'm a computer science undergrad at [Saarland University](https://saarland-informatics-campus.de/en/). I'm broadly interested in verification, programming languages, hardware, and type theory.
+
+Currently, I'm a research assistant at [MPI-SWS](https://www.mpi-sws.org/), working with [Derek Dreyer](https://people.mpi-sws.org/~dreyer/research.html). I’m also collaborating with [Jana Hofmann](https://janahofmann.github.io/) at [MPI-SP](https://www.mpi-sp.org/). -->
 
 <!-- Previously, I did a summer internship at [EPFL](https://www.epfl.ch/en/) with [Thomas Bourgeat](https://people.csail.mit.edu/bthom/), and during my bachelor's, I’ve also worked with [Dominik Kirst](https://www.ps.uni-saarland.de/~kirst/) and [Yannick Forster](https://yforster.de/) at [Inria](https://www.inria.fr/en), and with [Jan Reineke](https://embedded.cs.uni-saarland.de/reineke.php) at [Saarland University](https://saarland-informatics-campus.de/en/). -->
 
 <!-- **Email:** (λx. λy. x00001@stud.uni-y.de) (haze) (saarland) -->
-📬 (λx. λy. x00001@stud.uni-y.de) (haze) (saarland)
+📬 (λx. λy. x@g.y.edu) (haoyizeng) (harvard)
 
 📝 [Curriculum Vitae](CV/Haoyi_CV.pdf)
 
